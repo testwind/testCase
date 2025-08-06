@@ -28,6 +28,8 @@ export const executeQuery = async ( query: string) => {
     } catch (error) {
       await connection.rollback();
       throw error;
+    } finally {
+      await connection.end(); // close database connection
     }
 
   return res;
