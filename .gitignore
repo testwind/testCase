@@ -1,0 +1,5 @@
+node_modules/
+failed_batch.log
+data/*_sanitized.csv
+data_zip/*.csv
+tmp/

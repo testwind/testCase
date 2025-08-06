@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug My TypeScript",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/ts-node",
+      "runtimeArgs": [
+        "--inspect=9229",
+        "${workspaceFolder}/src/main.ts"
+      ],
+      "restart": 9229,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
+      "sourceMaps": true,
+      "smartStep": true
+    }
+  ]
+}
