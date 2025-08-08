@@ -48,15 +48,15 @@ Import speed is slow with primary key in tables.
 I removed primary key and foreign key in tables for testing.
 
 
-https://raw.githubusercontent.com/testwind/testCase/master/README.md
+https://raw.githubusercontent.com/testwind/testCase/main/README.md
 
-![This is a svg](https://g.gravizo.com/svg/custom_mark12?https%3A%2F%2Fraw.githubusercontent.com%2Ftestwind%2FtestCase%2Fmaster%2FREADME.md)
+![This is a svg](https://g.gravizo.com/svg/custom_mark12?https%3A%2F%2Fraw.githubusercontent.com%2Ftestwind%2FtestCase%2Fmain%2FREADME.md)
 
 
-<details> 
+<details>
 <summary></summary>
 custom_mark12
-
+@startuml
 
 class Franchisors {
   +franchisor_id: INT
@@ -111,7 +111,7 @@ Caregivers "1" -- "N" CareLogs : logs
 Caregivers "1" -- "N" OvertimeRecords : works
 CareLogs "1" -- "N" CareLogs : parent_child
 
-
+@enduml
 custom_mark12
 </details>
 
