@@ -50,7 +50,7 @@ I removed primary key and foreign key in tables for testing.
 
 https://raw.githubusercontent.com/testwind/testCase/main/README.md
 
-![This is a svg](https://g.gravizo.com/svg/custom_mark12?https%3A%2F%2Fraw.githubusercontent.com%2Ftestwind%2FtestCase%2Fmain%2FREADME.md)
+![This is a svg](https://g.gravizo.com/source/svg/custom_mark12?https%3A%2F%2Fraw.githubusercontent.com%2Ftestwind%2FtestCase%2Fmain%2FREADME.md)
 
 
 <details>
